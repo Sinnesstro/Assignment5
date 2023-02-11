@@ -1,0 +1,268 @@
+/* Header */
+.header{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+a {
+    color: black;
+}
+.hover a{
+    color: black;
+    transition: all .5s linear;
+}
+.hover a:hover{
+    color: blue;
+}
+header li{
+    display: inline-block;
+    margin-right: 16px;
+}
+.first{
+    margin-right: 505px;
+    font-family: 'Oswald';
+    font: bold;
+}
+.container{
+    max-width: 1540px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header img{
+    display: block;
+}
+.before-last{
+    margin-left: 288px;
+    margin-right: 35px;
+}
+.upper-img{
+    margin-left: 4px;
+}
+/* main */
+strong{
+    color: blue;
+}
+.search{
+    background-color: blue;
+}
+.search h3{
+    display: inline-block;
+    color: white;
+    margin-left: 87px;
+}
+.search input{
+    width: 369px;
+    height: 47px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-left: 525px;
+}
+.header1{
+    margin-left: 612px;
+    margin-top: 88px;
+}
+.wrapper{
+    height: 316px;
+    margin-left: 134px;
+    position: relative;
+    display: inline-block;
+}
+
+.wrapper img{
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.wrapper .hover1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.wrapper:hover .hover1{
+    opacity: 1;
+}
+.wrapper, .img2:hover .hover2{
+    opacity: 1;
+}
+
+
+.list div{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+/* about */
+.header2 h1{
+    margin-top: 50px;
+    margin-left: 640px;
+    color: blue;
+}
+.header2 p{
+    width: 817px;
+    height: 94px;
+    
+}
+.photo{
+    margin-left: 1131px;
+    margin-top: -250px;
+}
+
+.photo .photo2{
+    transform: rotate(66.29deg);
+    
+}
+.header2 h2{
+    margin-top: 50px;
+    margin-left: 540px;
+    color: blue;
+}
+.p2{
+    width: 1223px;
+    height: 78px;
+    margin-left: 120px;
+}
+.row h2{
+    margin-top: 50px;
+    margin-left: 602px;
+    color: blue;
+}
+.column img{
+    margin-left: 342px;
+}
+.column p{
+    display: inline;
+    margin-left: 342px;
+}
+
+/*Blog*/
+.header3 h1{
+    font-size: 50px;
+}
+.header3 h2{
+    font-size: 36px;
+    margin-left: 724px;
+    width: 550px;
+}
+.header3 p{
+    font-size: 20px;
+    margin-left: 721px;
+    width: 579px;
+}
+.blog img{
+    margin-left: 87px;
+}
+.row p, h3{
+    display: inline-block;
+    width: 250px;
+    margin-left: 370px;
+}
+/*contact*/
+
+.header4 h1{
+    font-size: 50px;
+    margin-left: 104px;
+}
+.header4 p{
+    font-size: 18px;
+    margin-left: 104px;
+}
+.map{
+    margin-left: 787px;
+    position: absolute;
+    top: 284px;
+    width: 590px;
+    height: 562px;
+}
+.name p{
+    display: inline-block;
+}
+.name .p3{
+    margin-left: 104px;
+}
+.name .p4{
+    margin-left: 232px;
+}
+.box input{
+    margin-left: 104px;
+    width: 224px;
+    height: 48px;
+    border-radius: 10px;
+}
+.email{
+    margin-left: 104px;
+}
+.email input{
+    width: 581px;
+    height: 48px; 
+    border-radius: 10px;
+}
+.num{
+    margin-left: 104px;
+}
+.num input{
+    width: 581px;
+    height: 48px;
+    border-radius: 10px;
+}
+.message{
+    margin-left: 104px;
+}
+.message input{
+    width: 581px;
+    height: 133px;
+    border-radius: 10px;
+}
+.contact-footer{
+    color: #FFFFFF;
+    height: 249px;
+    background: #0052CC;
+}
+.footer-logo{
+    display: inline-block;
+    margin: 50px 0 0px 83px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer-links{
+    display: inline-block;
+    margin: 50px 273px;
+    height: 96px;
+}
+.footer-links ul{
+    display: inline-block; 
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-links li{
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.footer-links a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-mail{
+    display: inline-block;
+    width: 254px;
+}
+.footer-mail input{
+    width: 254px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+.social-media{
+    margin-left: 83px;
+}
+.social-media a{
+    margin: 0 5px;
+}
+.footer-middle-ul li{
+    margin-bottom: 70px;
+}
